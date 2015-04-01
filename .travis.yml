@@ -9,5 +9,3 @@ node_js:
   - "iojs-v1.0.4" 
 before_install:
   - "curl -L https://raw.githubusercontent.com/arunoda/travis-ci-laika/master/configure.sh | /bin/sh"
-services:
-  - mongodb
