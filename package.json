@@ -1,0 +1,24 @@
+{
+    "name": "grouptyme",
+    "version": "0.0.1",
+    "description": "TBA",
+    "scripts": {
+        "test": "vows test/* --spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bsoe003/secret_alpha.git"
+    },
+    "author": "sp_ce",
+    "license": "MIT",
+    "dependencies": {
+        "passport": "0.2.1",
+        "dotenv": "1.1.0",
+        "vows": "0.8.1",
+        "express": "4.11.2",
+        "hbs": "2.8.0",
+        "express-handlebars": "1.2.1",
+        "mongodb": "1.4.30",
+        "mongoose": "3.8.23"
+    }
+}
