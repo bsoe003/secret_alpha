@@ -3,7 +3,8 @@
     "version": "0.0.1",
     "description": "TBA",
     "scripts": {
-        "test": "vows test/* --spec"
+        "test": "vows test/* --spec",
+        "start": "node server.js"
     },
     "repository": {
         "type": "git",
@@ -16,9 +17,24 @@
         "dotenv": "1.1.0",
         "vows": "0.8.1",
         "express": "4.11.2",
-        "hbs": "2.8.0",
         "express-handlebars": "1.2.1",
         "mongodb": "1.4.30",
         "mongoose": "3.8.23"
-    }
+    },
+    "bugs": {
+        "url": "https://github.com/bsoe003/secret_alpha/issues"
+    },
+    "homepage": "http://grouptyme-alpha.herokuapp.com",
+    "main": "server.js",
+    "directories": {
+        "test": "test"
+    },
+    "devDependencies": {},
+    "keywords": [
+        "group",
+        "tyme",
+        "calendar",
+        "collaboration",
+        "meeting"
+    ]
 }
