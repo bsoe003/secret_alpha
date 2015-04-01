@@ -19,11 +19,12 @@ mongoose.connection.once('open', function callback() {
 });*/
 
 // HANDLEBAR CONFIG
-app.engine('handlebars', handlebars());
-app.set('view engine', 'handlebars');
+app.engine('html', handlebars());
+app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 app.use(express.static(path.join(__dirname, 'public')));
 
+// ROUTE MAPPING
 app.get('/', index.view);
 
 // START
